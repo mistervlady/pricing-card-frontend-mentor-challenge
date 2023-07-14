@@ -1,0 +1,121 @@
+html {
+  box-sizing: border-box;
+  font-family: "Karla";
+  font-size:19.7px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h2, h3, p {
+  margin:0;
+}
+
+body {
+  padding:40px;
+}
+
+.main-container {
+  width:700px;
+  height:500px;
+  box-shadow: 3px 3px 7px 3px rgba(34, 60, 80, 0.21);
+  border-radius: 8px;
+  overflow:hidden;
+}
+
+.top-container {
+  width:100%;
+  height:45%;
+  padding:25px;
+}
+
+.bottom-container {
+  width:100%;
+  height:55%;
+  color: white
+}
+
+.bottom-left {
+  background-color: #2ab2af;
+  padding:25px;
+}
+
+.bottom-right {
+  background-color: #2EBFBD;
+  padding:25px
+}
+
+.bottom-left, .bottom-right {
+  width:50%;
+  height:100%;
+  padding: 27px;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.top-container > h2 {
+  color: #2ab2af;
+  margin-bottom: 20px;
+}
+
+.top-container > h3 {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+
+.top-container > p {
+  color: #98a6bd;
+}
+
+#price {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-right: 6px;
+}
+
+#price-frequency {
+  position: relative;
+  top:-3px;
+  opacity: 0.5;
+  
+}
+
+#price, #price-frequency {
+  display: inline-block;
+}
+
+button {
+  color:white;
+  background-color: #C9EB36;
+  border:none;
+  font-size:1.1rem;
+  padding: 13px;
+  width: 100%;
+  border-radius:7px;
+  margin-top: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color:#C0DF34;
+  transform: scale(1.02)
+}
+
+.bottom-left h3 {
+  margin-bottom: 12px;
+}
+
+.bottom-left p {
+  font-size:0.9rem;
+}
+
+#realShit {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+  opacity: 0.8;
+}
